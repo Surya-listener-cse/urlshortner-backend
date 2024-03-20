@@ -3,7 +3,7 @@ const {
   UrlSchema,
   CountSchema,
   UserSchema,
-} = require("./model/mongooseModel");
+} = require("../model/mongooseModel");
 const joi = require("joi");
 const { getIO, getId } = require("../socket");
 const tinySchema = joi
